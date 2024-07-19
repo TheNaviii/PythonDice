@@ -36,7 +36,7 @@ while max(player_scores) < max_score:
 
             value = roll()
             if value == 1:
-                print("You rolled a 1! Turn done!")
+                print("You rolled a 1! Turn Done!")
                 current_score = 0
                 break
             else:
@@ -50,5 +50,5 @@ while max(player_scores) < max_score:
 
 max_score = max(player_scores)
 winning_idx = player_scores.index(max_score)
-print("Player number", winning_idx + 1,
+print("Player Number", winning_idx + 1,
       "is the winner with a score of:", max_score)
